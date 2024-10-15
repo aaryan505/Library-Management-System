@@ -1,0 +1,167 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000002644_1709089520_download.jpg') no-repeat center center fixed; /* Replace with your actual image URL */
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Book Listings Styling */
+.book-list {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.book {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.book h3 {
+    color: #2980b9;
+    font-size: 18px;
+}
+
+.in-stock {
+    color: green;
+    font-weight: bold;
+}
+
+.out-of-stock {
+    color: red;
+    font-weight: bold;
+}
+
+/* Issued Books Table Styling */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #2980b9;
+    color: white;
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.contact-forms-container {
+    display: flex;
+    justify-content: center; /* Centers the forms horizontally */
+    gap: 20px;
+    margin: 0 auto; /* Ensures the container itself is centered */
+    padding: 20px;
+    width: 80%; /* Adjust the width as needed to control the spacing */
+    box-sizing: border-box;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    background-color: rgba(52, 152, 219, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 45%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #3498db;
+}
+
+.contact-form button {
+    background-color: #1324e4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.contact-form button:hover {
+    background-color: #0a1b8f;
+}
+
+/* "Go Back to Home" Link Styling */
+.back-home {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 5px solid black;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.back-home:hover {
+    background-color: #555;
+}
